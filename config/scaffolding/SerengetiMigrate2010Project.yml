@@ -4,6 +4,19 @@ info:
 packages:
 - name: SerengetiMigrate2010Project
   gitBranch: master
+services:
+- serviceName: project.serengetimigrate2010.integrations:gcd
+  packages:
+  - name: SerengetiMigrate2010Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
+- serviceName: project.serengetimigrate2010.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: SerengetiMigrate2010Project
+    version: "1.0"
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
