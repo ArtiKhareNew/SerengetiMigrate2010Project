@@ -16,6 +16,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1223
+- serviceName: project.serengetimigrate2010.integrations:lowerfs
+  packages:
+  - name: SerengetiMigrate2010Project
+    version: "1.0"
+- serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
 - serviceName: project.serengetimigrate2010.streaming.connections:EmbeddedMessaging
   packages:
   - name: SerengetiMigrate2010Project
