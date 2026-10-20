@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">streamingAccount</value>
+  <value name="node_nsName">project.serengetimigrate2010.streaming.connections:EmbeddedMessaging</value>
+  <value name="node_pkg">SerengetiMigrate2010Project</value>
+  <value name="is_public">false</value>
+  <value name="assetId">SerengetiMigrate2010Project.project.serengetimigrate2010.streaming.connections:EmbeddedMessaging</value>
+  <value name="connectionName">EmbeddedMessaging</value>
+  <value name="description">This is the default embedded messaging account</value>
+  <value name="providerURI">nhp://stage00-test776060-um-0.int-test776060.svc.cluster.local:9000/</value>
+  <value name="clientId">EM41d08d7cbe7d47d29f2c32aaf4d4342d</value>
+  <value name="securityProtocol"></value>
+  <value name="keystoreAlias"></value>
+  <value name="keystoreKeyAlias"></value>
+  <value name="truststoreAlias"></value>
+  <value name="additionalProperties"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Arti.Khare@ibm.com</value>
+    <value name="modifiedBy">Arti.Khare@ibm.com</value>
+    <value name="createdDate">2026-10-20T09:50:58.573822913Z</value>
+    <value name="lastModifiedDate">2026-10-20T09:50:58.573822913Z</value>
+  </record>
+</Values>
