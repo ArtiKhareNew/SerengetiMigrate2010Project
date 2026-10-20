@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: SerengetiMigrate2010Project
-  gitBranch: master
+  gitServerName: src_shared_GithubCtrl_Arti
+  gitUrl: https://github.com/ArtiKhareNew
+  gitUsername: ArtiKhareNew
+  gitBranch: main
 services:
 - serviceName: project.serengetimigrate2010.integrations:gcd
   packages:
